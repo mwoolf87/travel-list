@@ -3,7 +3,7 @@ import Logo from "./Logo";
 import Form from "./Form";
 import PackagingList from "./PackagingList";
 import Stats from "./Stats";
-import "./index.css";
+import "../index.css";
 
 export default function App() {
   const [items, setItems] = useState([]);
